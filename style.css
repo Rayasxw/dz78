@@ -1,0 +1,26 @@
+body {
+    height: 100vh;
+    background-color: aqua;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly
+
+
+}
+button{
+    width: 100px;
+    height: 40px;
+    border-radius: 8px;
+    background-color: green;
+    color: gold;
+    border-color: blue;
+    transition: ease-in 0.1s;
+}
+button:hover{
+    transform: scale(1.2) rotate(-45deg);
+    cursor: pointer;
+    color: orange;
+    background-color: black;
+    border-color: green;
+}
+
